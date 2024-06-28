@@ -6,7 +6,7 @@
     <title>Sigmaflare</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
-    <link rel="icon" href="https://sigmflare.github.io/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://sigmaflare.example/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -15,9 +15,9 @@
                 <a href="#" class="logo">Sigmaflare</a>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="hero">
@@ -27,6 +27,59 @@
             </div>
         </div>
     </header>
+    
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h3>High Performance</h3>
+                    <p>Experience blazing fast speeds and unparalleled performance.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Security</h3>
+                    <p>Top-notch security to protect your data and applications.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Reliability</h3>
+                    <p>Dependable service with 99.99% uptime guaranteed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Sigmaflare transformed our web infrastructure. Highly recommended!"</p>
+                <small>- Jane Doe, CEO of Example Corp</small>
+            </div>
+            <div class="testimonial">
+                <p>"Unmatched performance and security. Our go-to solution!"</p>
+                <small>- John Smith, CTO of Tech Innovators</small>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
     <footer>
         <div class="container">
             <small>Powered by <strong>Sigmaflare</strong></small>
