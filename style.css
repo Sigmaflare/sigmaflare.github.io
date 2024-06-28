@@ -4,6 +4,7 @@ body {
     font-family: "Lato", sans-serif;
     background-color: #f5f5f5;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
@@ -83,6 +84,100 @@ nav ul li a:hover {
 .cta-button:hover {
     background-color: #ffefd5;
     color: #FF813F;
+}
+
+section {
+    padding: 60px 0;
+    background-color: white;
+    margin: 40px 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.feature-item {
+    flex: 1;
+    padding: 20px;
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #FF813F;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+.testimonial {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+.testimonial p {
+    font-size: 1.1em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial small {
+    color: #999;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-weight: 700;
+    margin: 10px 0 5px;
+    align-self: flex-start;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+form button {
+    background-color: #FF813F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #FFC857;
 }
 
 footer {
