@@ -109,6 +109,18 @@ header {
     box-shadow: 10px 10px 5px #ff8340;
 }
 
+#orangeBallGradient {
+    z-index: -1;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 120%;
+    height: 120%;
+    border-radius: 50%;
+    filter: blur(900px);
+    background-color: #ffa574;
+}
+
 section {
     padding: 60px 0;
     background-color: white;
