@@ -24,6 +24,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+    background-color: white;
+    color: black;
 }
 
 nav .logo {
@@ -208,7 +210,7 @@ footer small strong {
     width: 50%;
 }
 
-.container {
+nav {
     background-color: white;
     color: black;
 }
