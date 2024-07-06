@@ -207,3 +207,8 @@ footer small strong {
     text-align: left;
     width: 50%;
 }
+
+.container {
+    background-color: white;
+    color: black;
+}
