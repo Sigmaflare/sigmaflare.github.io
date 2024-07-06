@@ -16,6 +16,10 @@ Distributed under the MIT License. See [LICENSE.txt](https://github.com/Sigmflar
 ## Contact
 Sigmaflare - official_sigmaflare@proton.me - sigmaflare_user@proton.me
 
+## Official Discord server
+
+[Join](https://discord.gg/84ZcqUuUN9) our official Discord server for updates, chatting with devs and a lot more stuff.
+
 ## Acknowledgments
 
 * 👑 [broisvoldemort](https://github.com/broisvoldemort) (owner)
