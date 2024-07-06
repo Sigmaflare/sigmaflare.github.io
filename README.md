@@ -11,7 +11,7 @@ This project was started by broisvoldemort in 2024 when he realised that compani
 
 ## License
 
-Distributed under the MIT License. See `(LICENSE.txt)[https://github.com/Sigmflare/sigmflare.github.io/LICENSE.txt]` for more information
+Distributed under the MIT License. See [LICENSE.txt](https://github.com/Sigmflare/sigmflare.github.io/LICENSE.txt) for more information
 
 ## Contact
 Sigmaflare - official_sigmaflare@proton.me - sigmaflare_user@proton.me
