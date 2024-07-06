@@ -125,14 +125,26 @@ h2 {
 
 .feature-grid {
     display: flex;
-    justify-content: space-around;
-    text-align: center; 
+    justify-content: center; /* Center-align the feature items */
+    gap: 200px; /* Add some space between the feature items */
+    flex-wrap: wrap; /* Allow the items to wrap if the screen is too narrow */
+    text-align: center;
+    padding: 20px 0; /* Add padding to the top and bottom */
 }
 
 .feature-item {
-    flex: 1;
+    display: inline-block; /* Adjust the display to inline-block */
     padding: 20px;
-    text-align: center; 
+    text-align: center;
+    color: #333;
+    border-radius: 12px;
+    background-color: #f8f8f8; /* Slightly dark background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a raised effect */
+    margin: 10px; /* Add some margin for spacing between items */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .feature-item h3 {
