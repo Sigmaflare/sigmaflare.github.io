@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,48 +16,47 @@ body {
 header {
     background: linear-gradient(135deg, #FF813F, #FFC857);
     color: white;
-    padding: 20px 0;
+    padding: 0px 0px;
+    background-size: 200% 200%;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+.top-bar {
+    background-color: white;
+    padding: 10px 30px;
 }
 
-nav {
+.top-bar .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
 }
 
-nav .logo {
+.top-bar .logo {
     font-size: 1.5em;
     font-weight: 700;
     text-decoration: none;
-    color: white;
+    color: #333;
 }
 
-nav ul {
+.top-bar nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-nav ul li {
+.top-bar nav ul li {
     margin-left: 20px;
 }
 
-nav ul li a {
+.top-bar nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #333;
     font-weight: 700;
     transition: color 0.3s;
 }
 
-nav ul li a:hover {
+.top-bar nav ul li a:hover {
     color: #ffefd5;
 }
 
@@ -86,6 +91,24 @@ nav ul li a:hover {
     color: #FF813F;
 }
 
+#userReviewsParentContainer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#userReviews {
+    align-self: center;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #FF813F, #FFC857);
+    border-radius: 10px;
+    border: linear-gradient(135deg, #ffc5a6, #ffde9c) 1px solid;
+    text-align: left;
+    width: 50%;
+    box-shadow: 10px 10px 5px #ff8340;
+}
+
 section {
     padding: 60px 0;
     background-color: white;
@@ -97,17 +120,31 @@ h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
     font-weight: 700;
+    text-align: center;
 }
 
 .feature-grid {
     display: flex;
-    justify-content: space-around;
-    text-align: left;
+    justify-content: center; /* Center-align the feature items */
+    gap: 200px; /* Add some space between the feature items */
+    flex-wrap: wrap; /* Allow the items to wrap if the screen is too narrow */
+    text-align: center;
+    padding: 20px 0; /* Add padding to the top and bottom */
 }
 
 .feature-item {
-    flex: 1;
+    display: inline-block; /* Adjust the display to inline-block */
     padding: 20px;
+    text-align: center;
+    color: #333;
+    border-radius: 12px;
+    background-color: #f8f8f8; /* Slightly dark background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a raised effect */
+    margin: 10px; /* Add some margin for spacing between items */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .feature-item h3 {
@@ -141,15 +178,17 @@ h2 {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 form label {
     font-weight: 700;
     margin: 10px 0 5px;
-    align-self: flex-start;
 }
 
 form input, form textarea {
@@ -190,20 +229,4 @@ footer {
 
 footer small strong {
     color: #FFC857;
-}
-
-#userReviewsParentContainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#userReviews {
-    align-self: center;
-    margin-top: 20px;
-    background: linear-gradient(135deg, #FF813F, #FFC857);
-    border-radius: 10px;
-    border: linear-gradient(135deg, #ffc5a6, #ffde9c) 1px solid;
-    text-align: left;
-    width: 50%;
 }
